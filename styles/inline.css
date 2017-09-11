@@ -20,13 +20,63 @@ html {
 }
 
 #particles-js {
-    background: #444444;
+    background: #252627;
     height: 700px;
 }
 
 .footer {
+    text-align: center;
     height: 70px;
     background: black;
+}
+
+#name {
+    /*background: #fff;
+    opacity: 0.9;
+    padding: 2em;
+    border: #ccc 2px solid;*/
+    position: absolute;
+    top: 150px;
+    left: 40%;
+}
+
+h1 {
+    font-family: font-file-82132;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 48px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.contactbtn {
+    position: absolute;
+    top: 450px;
+    left: 42%;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+.contbtn {
+    color: #08fdd8;
+    text-decoration-style: solid;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 70;
+    letter-spacing: 3px;
+    line-height: 15.4px;
+    font-family: "Open Sans", sans-serif;
+    border: solid 1px #08fdd8;
+    border-radius: 5px;
+    padding: 8px 10px 8px 10px;
+}
+
+.contbtn:hover {
+    background: #08fdd8;
+    color: #252627;
 }
 
 body {

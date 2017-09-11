@@ -24,6 +24,11 @@ html {
     height: 1000px;
 }
 
+footer {
+    height: 50px;
+    background: black;
+}
+
 body {
     display: -webkit-box;
     display: -webkit-flex;
@@ -55,7 +60,7 @@ body {
     width: 100%;
     height: 56px;
     color: #ffffff;
-    background: #08fdd8;
+    background: #181818;
     position: fixed;
     font-size: 20px;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 2px 9px 1px rgba(0, 0, 0, 0.12), 0 4px 2px -2px rgba(0, 0, 0, 0.2);

@@ -19,6 +19,11 @@ html {
     overflow: hidden;
 }
 
+#particles-js {
+    background: #444444;
+    height: 1000px;
+}
+
 body {
     display: -webkit-box;
     display: -webkit-flex;
@@ -49,7 +54,7 @@ body {
 .header {
     width: 100%;
     height: 56px;
-    color: #FFF;
+    color: #ffffff;
     background: #08fdd8;
     position: fixed;
     font-size: 20px;

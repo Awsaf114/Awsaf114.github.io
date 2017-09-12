@@ -31,11 +31,7 @@ html {
 }
 
 #name {
-    /*background: #fff;
-    opacity: 0.9;
-    padding: 2em;
-    border: #ccc 2px solid;*/
-    position: absolute;
+    position: fixed;
     top: 150px;
     left: 40%;
 }
@@ -207,6 +203,55 @@ body {
     }
 }
 
+@media (max-width: 450px) {
+    .weather-forecast .date, .weather-forecast .description {
+        font-size: 0.9em;
+    }
+    .weather-forecast .current .icon {
+        width: 96px;
+        height: 96px;
+    }
+    .weather-forecast .current .visual {
+        font-size: 3em;
+    }
+    .weather-forecast .future .oneday .icon {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+#particles-js{
+  width: auto;
+}
+#name {
+    position: relative;
+    top: 150px;
+    left: 40%;
+}
+
+h1 {
+    font-family: font-file-82132;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.contactbtn {
+    position: absolute;
+    top: 450px;
+    left: 42%;
+}
+
+
+
+
+}
+
 @keyframes rotate {
     from {
         -webkit-transform: rotate(0);
@@ -264,7 +309,8 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-.dialog-container {
+
+/*.dialog-container {
     background: rgba(0, 0, 0, 0.57);
     position: fixed;
     left: 0;
@@ -483,23 +529,6 @@ body {
     background-image: url("/images/thunderstorm.png");
 }
 
-@media (max-width: 450px) {
-    .weather-forecast .date, .weather-forecast .description {
-        font-size: 0.9em;
-    }
-    .weather-forecast .current .icon {
-        width: 96px;
-        height: 96px;
-    }
-    .weather-forecast .current .visual {
-        font-size: 3em;
-    }
-    .weather-forecast .future .oneday .icon {
-        width: 32px;
-        height: 32px;
-    }
-}
-
 .mdl-button {
     background: transparent;
     border: none;
@@ -564,4 +593,4 @@ body {
 .mdl-button--primary.mdl-button--primary.mdl-button--raised, .mdl-button--primary.mdl-button--primary.mdl-button--fab {
     color: white;
     background-color: #3f51b5;
-}
+}*/

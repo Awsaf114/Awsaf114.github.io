@@ -124,7 +124,7 @@ header.masthead {
   text-align: center;
   color: firebrick;
 
-  /*background: grey;*/
+  background: grey;
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;

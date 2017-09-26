@@ -122,12 +122,11 @@ body {
 }
 header.masthead {
   text-align: center;
-  color: firebrick;
 
-  background: grey;
-  background-image: url("../img/header-bg.jpg");
+  background: #2d2d2c;
+  /*background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: scroll;*/
   /*background-blend-mode: lighten;*/
   background-position: center center;
   -webkit-background-size: cover;
@@ -142,12 +141,14 @@ header.masthead {
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
+color: white;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
+      color: #f6cb0b;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
 
